@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Setup from "./useState/Counter"
+import All from "./CarBrands"
+import Eff from "./useState/useStateBasics"
 
 import './index.css';
 
@@ -9,7 +11,8 @@ function Cars(){
   return(
     <div className="ok">
       
-      {/* HOOKS useState */}
+      <Eff/>
+      {/* <All/> */}
       <Setup/>
       
     </div>

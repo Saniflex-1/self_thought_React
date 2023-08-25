@@ -16,12 +16,15 @@ const Counter = () => {
     }
 
     useEffect(()=>{
-        document.title = 'William Port'
+      if(value>4){
+
+        document.title = 'New Messages ' + value;
+      }
     })
   return (
     <div>
       <h1>Counter</h1> <br />
-      <h2>{value}</h2>
+      {/* <h2>{value}</h2> */}
       <button onClick={increment}>Add</button>
       <button onClick={()=>setValue(0)}>Reset</button>
       <button onClick={()=>setValue(value -1)}>Decrease</button> <br />
