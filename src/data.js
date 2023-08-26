@@ -11,6 +11,7 @@ export const data = [
         id: 3,
         name: "Faith"
     },
+    
     {
         id: 4,
         name: "Jonas"
