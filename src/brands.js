@@ -7,6 +7,7 @@ export const brands = [
     
   },
 
+  
   {
     id : 2,
     type : "hooks",
