@@ -6,6 +6,7 @@ const CarBrands = (props) =>{
   const clickHandler = () =>{
     alert("I love JS");
   }
+  
 
   const complex = (color)=>{
     console.log(color);
