@@ -11,6 +11,7 @@ const Counter = () => {
     const moreComplex = ()=>{
         setTimeout(()=>{
             setValue(value + 1)
+            
         }, 1000)
         setValue("You are the love of my love, my life is nothing without you dear")
     }
