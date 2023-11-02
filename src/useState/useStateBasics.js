@@ -7,6 +7,7 @@ const useStateBasi = () => {
   const Good=()=>{
     setValue('Good afternoon')
   
+    
   }
   return(
     <div>
